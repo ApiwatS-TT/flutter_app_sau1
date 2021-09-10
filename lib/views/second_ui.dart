@@ -39,7 +39,7 @@ class _SecondUIState extends State<SecondUI> {
             UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage(
-                  'assets/images/profile.JPG',
+                  'assets/images/profile.jpeg',
                 ),
               ),
               accountName: Text(

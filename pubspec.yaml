@@ -51,7 +51,7 @@ flutter:
   assets :
     - assets/images/background.png
     - assets/images/logo.png
-    - assets/images/profile.jpg
+    - assets/images/profile.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -64,6 +64,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-bold.ttf
+        - asset: assets/fonts/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-Italic.ttf
+          style: italic
   # fonts:
   #   - family: Schyler
   #     fonts:
